@@ -52,7 +52,7 @@ dependencies:
     condition: "zeebe.enabled"
   # Dependency charts.
   - name: elasticsearch
-    repository: "https://helm.elastic.co"
+    repository: "https://github.com/SithAmidamaro/helm-charts.git"
     version: 7.17.1
     condition: "elasticsearch.enabled"
   # Helpers charts.
